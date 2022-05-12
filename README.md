@@ -3,8 +3,11 @@
 This is a repo with a Hamiltonian Monte Carlo implementation for educational purposes.
 
 `hmc_mv_with_gaps.py` has code with gaps that need to be completed in order to get a working implementation.
+
 `hmc.py` has a univariate implementation of naive HMC.
+
 `hmc_mv.py` has a multivariate implementation of naive HMC.
+
 `hmc_vis.ipynb` shows how to use the code and generate plots.
 
 I suggest to play around with the code and work on the following exercises:
@@ -18,6 +21,6 @@ I suggest to play around with the code and work on the following exercises:
   - Repeat with simple Metropolis-Hastings.
 
 If you want to learn more, a great starting point is [“MCMC using Hamiltonian Dynamics”, Neil (2012)](https://www.mcmchandbook.net/HandbookChapter5.pdf)
-and also [Betancourt 2017](https://arxiv.org/abs/1701.02434)
+and also ["A Conceptual Introduction to Hamiltonian Monte Carlo", Betancourt (2017)](https://arxiv.org/abs/1701.02434).
 
 
