@@ -41,7 +41,8 @@ def hmc(
     return
 
 
-inv_m = np.asarray([[1, 0.5], [0.5, 1]])
+m = np.asarray([[1, 0.5], [0.5, 1]])
+inv_m = np.linalg.inv(m)
 
 
 def neg_log_gaussian_target(q: np.ndarray) -> float:
